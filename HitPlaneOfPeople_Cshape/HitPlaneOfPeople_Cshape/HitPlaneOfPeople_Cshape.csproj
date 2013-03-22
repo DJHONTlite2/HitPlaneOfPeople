@@ -44,7 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\Interface\IDataManager.cs" />
-    <Compile Include="Game\Abstract\AbsPawn.cs" />
+    <Compile Include="Game\Interface\IMap.cs" />
+    <Compile Include="Game\Interface\IPawn.cs" />
     <Compile Include="Game\Engine.cs" />
     <Compile Include="Game\GameFactory.cs" />
     <Compile Include="Game\Interface\IBullet.cs" />
