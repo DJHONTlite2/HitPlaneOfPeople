@@ -1,4 +1,8 @@
-﻿using System;
+﻿//Auther:DJHONT
+//Date:2013-4-8
+//这些Unity中间件直接连接引擎Engine类
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

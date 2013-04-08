@@ -35,12 +35,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Activities" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>.\UnityEngine.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\Interface\IDataManager.cs" />
@@ -55,12 +60,18 @@
     <Compile Include="Game\Interface\IEngine.cs" />
     <Compile Include="Game\Interface\IMission.cs" />
     <Compile Include="Game\Interface\IPlayer.cs" />
+    <Compile Include="Game\Unity\U3DPlayer.cs" />
+    <Compile Include="Game\Unity\U3DPawn.cs" />
     <Compile Include="GUI\Interface\IGUI.cs" />
     <Compile Include="Interface\IPlayerCtrl.cs" />
     <Compile Include="Interface\IUpdate.cs" />
+    <Compile Include="PlayerCtrl.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Struct\EnumAndStruct.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game\ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

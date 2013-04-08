@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Auther:DJHONT
+//Date:2013-4-8
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
