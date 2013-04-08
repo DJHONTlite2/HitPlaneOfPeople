@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using UnityEngine;
 
 namespace HitPlaneOfPeople_Cshape
 {
@@ -17,7 +18,7 @@ namespace HitPlaneOfPeople_Cshape
 
         public static IPawn CreateEnemy()
         {
-            return null;
+            return new U3DPawn();
         }
 
         public static IPawn CreateBoss()
@@ -25,9 +26,9 @@ namespace HitPlaneOfPeople_Cshape
             return null;
         }
 
-        public static IPawn CreatePlayer()
+        public static IPlayer CreatePlayer()
         {
-            return null;
+            return new U3DPlayer();
         }
     }
 }

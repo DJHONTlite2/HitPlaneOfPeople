@@ -10,9 +10,13 @@ namespace HitPlaneOfPeople_Cshape
     public interface IPawn
     {
         /// <summary>
-        /// 获得全局位置
+        /// x坐标
         /// </summary>
-        void GetPos(float x, float y);
+        float X { get; set; }
+        /// <summary>
+        /// y坐标
+        /// </summary>
+        float Y { get; set; }
         /// <summary>
         /// 被攻击时触发
         /// </summary>

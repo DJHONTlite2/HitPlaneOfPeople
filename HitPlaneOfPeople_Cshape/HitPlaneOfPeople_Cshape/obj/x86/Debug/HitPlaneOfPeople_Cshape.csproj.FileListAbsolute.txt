@@ -3,3 +3,5 @@ D:\HitPlaneOfPeople_c#\HitPlaneOfPeople_Cshape\HitPlaneOfPeople_Cshape\bin\Debug
 D:\HitPlaneOfPeople_c#\HitPlaneOfPeople_Cshape\HitPlaneOfPeople_Cshape\bin\Debug\HitPlaneOfPeople_Cshape.pdb
 D:\HitPlaneOfPeople_c#\HitPlaneOfPeople_Cshape\HitPlaneOfPeople_Cshape\obj\x86\Debug\HitPlaneOfPeople_Cshape.exe
 D:\HitPlaneOfPeople_c#\HitPlaneOfPeople_Cshape\HitPlaneOfPeople_Cshape\obj\x86\Debug\HitPlaneOfPeople_Cshape.pdb
+D:\HitPlaneOfPeople\HitPlaneOfPeople\HitPlaneOfPeople_Cshape\HitPlaneOfPeople_Cshape\obj\x86\Debug\HitPlaneOfPeople_Cshape.exe
+D:\HitPlaneOfPeople\HitPlaneOfPeople\HitPlaneOfPeople_Cshape\HitPlaneOfPeople_Cshape\obj\x86\Debug\HitPlaneOfPeople_Cshape.pdb
